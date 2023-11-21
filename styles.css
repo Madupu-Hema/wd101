@@ -21,6 +21,10 @@ width: 100%;
 padding: 8px;
 margin-bottom: 10px;
 }
+#acceptTerms{
+margin-right: 5px;
+display: inline;
+}
 button {
 background-color: #4CAF50;
 color: white;
