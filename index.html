@@ -12,11 +12,14 @@
 <form id="registrationForm" onsubmit="submitForm(event)">
 <label for="name">Name:</label>
 <input type="text" id="name" required>
-
 <label for="email">Email:</label>
 <input type="email" id="email" required>
+<label for="password" >password:</label>
+<input type="password" id="password" required>
 <label for="dob">Date of Birth:</label>
-<input type="date" id="dob" name="dob" min="1968-11-19" max="2005-11-21"/>
+<input type="date" id="dob" name="dob" min="1968-11-21" max="2005-11-21"/>
+<input type="checkbox" id="acceptTerms" required>
+<label for="acceptTerms"> Accept the terms and conditions</label>
 <button type="submit">Submit</button>
 </form>
 
